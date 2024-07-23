@@ -77,7 +77,7 @@ def send_email(subject, body, to_email):
 def job():
     subject = "Today's Weather in Melbourne"
     body = get_weather()
-    to_email = "350738767@qq.com"
+    to_email = "1259499722@qq.com"
     send_email(subject, body, to_email)
 
 # 安排每日发送
