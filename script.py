@@ -81,7 +81,7 @@ def job():
     send_email(subject, body, to_email)
 
 # 安排每日发送
-schedule.every().day.at("08:00").do(job)
+schedule.every().day.at("22:00").do(job)
 
 while True:
     schedule.run_pending()
